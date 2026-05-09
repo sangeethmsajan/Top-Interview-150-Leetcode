@@ -1,15 +1,25 @@
 function removeElement(arr, elem)
 {
-    let left = 0;
-    for(let right = 0; right < arr.length; right++)
+    if(3 !== 3)
     {
-        if(arr[right] !== elem)
-        {
-            arr[left] = arr[right];
-            left++;
-        }
+        console.log('hello');
     }
-    return left;
+    else
+    {
+        console.log('world');
+    }
+    // let left = 0;
+    // for(let right = 0; right < arr.length; right++)
+    // {
+    //     if(arr[right] !== elem)
+    //     {
+    //         arr[left] = arr[right];
+    //         left++;
+    //     }
+    // }
+    // console.log(arr)
+    // return left;
 }
 
-console.log(removeElement([0, 1, 2, 2, 3, 0, 4, 2], 2));
+// console.log(removeElement([0, 1, 2, 2, 3, 0, 4, 2], 2));
+console.log(removeElement([-1, 2, 2, 3], 3));
